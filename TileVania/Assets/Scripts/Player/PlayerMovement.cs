@@ -135,13 +135,14 @@ public class PlayerMovement : MonoBehaviour
     {
         if (myBodyCollider.IsTouchingLayers(LayerMask.GetMask("Enemies", "Hazards")))
         {
-            var cineCam = FindObjectOfType<Camera>();
+            var cineCam = FindObjectOfType<CameraScript>();
             cineCam.KillCam();
             isAlive = false;
             myAnimator.SetTrigger("isDead");
             GetComponent<CapsuleCollider2D>().enabled = false;
             GetComponent<BoxCollider2D>().enabled = false;
             myRigidbody.velocity = deathKick;
+            FindObjectOfType<GameSession>().ProcessPlayerDeath();
         }
         else
         {
