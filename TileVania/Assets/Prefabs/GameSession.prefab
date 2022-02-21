@@ -417,7 +417,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86bfdadcb34b72b41854e689a5e3121a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerLives: 3
+  playerLives: 1
+  score: 0
   deathSceneReloadDelay: 1
   livesText: {fileID: 1899142568}
   scoreText: {fileID: 1926060318}

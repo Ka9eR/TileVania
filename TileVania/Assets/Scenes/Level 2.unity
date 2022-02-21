@@ -29579,13 +29579,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3323003584979980550, guid: c95c19720b4128a44ab2811887abf5c2, type: 3}
+      propertyPath: orthographic size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 3323003584979980793, guid: c95c19720b4128a44ab2811887abf5c2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -16.232471
+      value: -16.182787
       objectReference: {fileID: 0}
     - target: {fileID: 3323003584979980793, guid: c95c19720b4128a44ab2811887abf5c2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -9.836026
+      value: -9.836228
       objectReference: {fileID: 0}
     - target: {fileID: 3323003585001727581, guid: c95c19720b4128a44ab2811887abf5c2, type: 3}
       propertyPath: m_AnimatedTarget
